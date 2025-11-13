@@ -1,4 +1,4 @@
-# Simple-MAC-Address-Changer
+# Simple MAC Address Changer
 
 A simple Python script to change the MAC address of network interfaces on Linux.
 
@@ -20,5 +20,11 @@ This script allows you to select a network interface and assign a new MAC addres
 ---
 
 # Usage
+Run the script with root privileges:
+
 sudo python 'Simple MAC Address Changer'.py
+
+Select the interface you want to change.
+
+Enter a new MAC address in the correct format: AA:BB:CC:DD:EE:FF 
 
